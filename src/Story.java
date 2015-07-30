@@ -31,7 +31,7 @@ public class Story {
 				new Choice("Inspect the flashlight", 5),
 				new Choice("Ignore it and keep going", 6)
 				);
-		
+
 		// DEATH PAGE
 		this.pages[4] = new Page (
 				0, // R.drawable.labryinth_death_screen,
@@ -39,11 +39,17 @@ public class Story {
 				);
 
 		this.pages[5] = new Page (
-
+				0, // FLashlight image?
+				"You pick up the flashlight, and realize it's metallic blue in color...and stained in what you assume is blood. Not really caring, you flash it in front of you and start walking. With the illumination from the flashlight, you feel much safer and more confident. Eventually you reach the end of the the passageway, only to find that there's a fork that splits left and right. They seem completely identical...hmm, which way?",
+				new Choice("Take the left fork", 7),
+				new Choice("Take the right fork", 8)
 				);
 
 		this.pages[6] = new Page (
-
+				0, // Flashlight image again
+				"You run past the flashlight like an idiot, but something brings you back. You feel like it may come in handy sometime, so you backtrack and get the flashlight. " + this.pages[5].getText(),
+				new Choice(this.pages[5].getChoice1().getText(), this.pages[5].getChoice1().getNextPage()),
+				new Choice(this.pages[5].getChoice2().getText(), this.pages[5].getChoice2().getNextPage())
 				);
 	}
 

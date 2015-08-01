@@ -51,6 +51,20 @@ public class Story {
 				new Choice(this.pages[5].getChoice1().getText(), this.pages[5].getChoice1().getNextPage()),
 				new Choice(this.pages[5].getChoice2().getText(), this.pages[5].getChoice2().getNextPage())
 				);
+		
+		this.pages[7] = new Page (
+				0, // Alchemy or enchanting room from Skyrim?
+				"Following your instincts, you take the left path, and you run through the tunnel, which eventually leads you to a singular room that has a medieval feel to it. On the right looked like some sort of alchemy table and on the left looked to be some sort of arcane enchanter. In the middle of the room, however, was a table with two large, differently colored vials: blue and yellow.",
+				new Choice("Take the blue one", 9),
+				new Choice("Take the yellow one", 10)
+				);
+		
+		this.pages[8] = new Page (
+				0, // Trapdoor from Skyrim?
+				"Being the punster that you are, you decide to go the RIGHT way, running through the tunnel, flashlight in hand, shining through the darkness. Eventually, you hear the rush of water coming from somewhere under you. You inspect the floor and find a hidden trapdoor, but in front of you at the end of the tunnel is a rusty ladder.",
+				new Choice("Go through the trapdoor", 11),
+				new Choice("Run to the ladder", 12)
+				);
 	}
 
 	public Page getPage(int pageNumber) {

@@ -59,5 +59,4 @@ public class Page {
 	public void setIsFinal(boolean isFinal) {
 		this.isFinal = isFinal;
 	}
-
 }

@@ -62,8 +62,8 @@ public class Story {
 		this.pages[8] = new Page (
 				0, // Trapdoor from Skyrim?
 				"Being the punster that you are, you decide to go the RIGHT way, running through the tunnel, flashlight in hand, shining through the darkness. Eventually, you hear the rush of water coming from somewhere under you. You inspect the floor and find a hidden trapdoor, but in front of you at the end of the tunnel is a rusty ladder.",
-				new Choice("Go through the trapdoor", 11),
-				new Choice("Run to the ladder", 12)
+				new Choice("Run to the ladder", 11),
+				new Choice("Go through the trapdoor", 13)
 				);
 		
 		// Basically death in a different form (not using the regular death screen
@@ -75,8 +75,8 @@ public class Story {
 		this.pages[10] = new Page (
 				0,
 				"Since yellow is a color your mother likes, you decide to drink the contents of it. Immediately, the entire room warps as your entire body seamlessly disappears, changing the scene. When your body reappears, you find that you're on a bridge, over the roaring sound of pure, gushing water. Suddenly, you hear a booming, raspy voice come from nowhere: \"%1$s...welcome to my domain. I don't know how you made it here, but you'll be dead soon!\"",
-				new Choice("Run across the bridge", 13),
-				new Choice("Jump into the rapids", 14)
+				new Choice("Run across the bridge", 12),
+				new Choice("Jump into the rapids", 13)
 				);
 	}
 

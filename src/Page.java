@@ -12,6 +12,15 @@ public class Page {
 		this.text = text;
 	}
 	
+	// EXPERIMENTAL: Constructor used for simply continuing to the next page if text is too long
+	// Use the set invisibility option with the text "continue to next page"
+	public Page(int imageId, String text, Choice choice) {
+		this.imageId = imageId;
+		this.text = text;
+		this.choice1 = null;
+		this.choice2 = choice;
+	}
+	
 	// Constructor used for non-death screens (two choices)
 	public Page(int imageId, String text, Choice choice1, Choice choice2) {
 		this.imageId = imageId;

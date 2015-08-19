@@ -73,10 +73,17 @@ public class Story {
 				);
 		
 		this.pages[10] = new Page (
-				0,
+				0, // Log bridge from Skyrim
 				"Since yellow is a color your mother likes, you decide to drink the contents of it. Immediately, the entire room warps as your entire body seamlessly disappears, changing the scene. When your body reappears, you find that you're on a bridge, over the roaring sound of pure, gushing water. Suddenly, you hear a booming, raspy voice come from nowhere: \"%1$s...welcome to my domain. I don't know how you made it here, but you'll be dead soon!\"",
 				new Choice("Run across the bridge", 12),
 				new Choice("Jump into the rapids", 13)
+				);
+		// Ladder leads to this room
+		this.pages[11] = new Page (
+				0, // Dark circular room?
+				"You decide that climbing the ladder is a good decision, since up is better. As you begin climbing, you see that it leads to a trapdoor above you, so you just push it up and climb through. The room is dimly lit but you can see that the room is circular with only one path forward. The place doesn't look all that friendly and you get out of there quickly, following the path ahead. Eventually, you find a bottomless hole and understand that you must make a choice.",
+				new Choice("Keep going forward", 12),
+				new Choice("Jump into the rabbit hole", 14)
 				);
 	}
 

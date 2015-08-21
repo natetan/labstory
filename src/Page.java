@@ -5,9 +5,11 @@ public class Page {
 	private Choice choice1;
 	private Choice choice2;
 	private boolean isFinal = false;
+	private boolean isTooLong = false;
 	
 	// Constructor used for death screens (no choices)
 	public Page(int imageId, String text) {
+		this.isFinal = true;
 		this.imageId = imageId;
 		this.text = text;
 	}
@@ -15,6 +17,7 @@ public class Page {
 	// EXPERIMENTAL: Constructor used for simply continuing to the next page if text is too long
 	// Use the set invisibility option with the text "continue to next page"
 	public Page(int imageId, String text, Choice choice) {
+		this.isTooLong = true;
 		this.imageId = imageId;
 		this.text = text;
 		this.choice1 = null;
@@ -67,5 +70,13 @@ public class Page {
 	
 	public void setIsFinal(boolean isFinal) {
 		this.isFinal = isFinal;
+	}
+	
+	public boolean isTooLong() {
+		return this.isTooLong;
+	}
+	
+	public void setIsTooLong(boolean isTooLong) {
+		this.isTooLong = isTooLong;
 	}
 }

@@ -85,6 +85,12 @@ public class Story {
 				new Choice("Jump into the dark hole", 13),
 				new Choice("Keep going forward", 14)
 				);
+		
+		// The page with only one button to go forward due to text being too long
+		this.pages[12] = new Page(
+				0, // Nematon clearing from Teen Wolf
+				"Where did that voice come from? It doesn't matter too much, since you have a fear of heights. Even though you're not a gambler, you decide that the road ahead of the bridge is your best bet. You sprint across, not looking down at the gushing rapids and make it safely to the other side, which by appearence seemed like a large forested area. You see a clearing up ahead and choose to see what's there. In the center of the clearing was a large tree stump.",
+				new Choice("Investigate the tree", 15));
 	}
 
 	public Page getPage(int pageNumber) {

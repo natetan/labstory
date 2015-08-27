@@ -90,7 +90,17 @@ public class Story {
 		this.pages[12] = new Page (
 				0, // Nematon clearing from Teen Wolf
 				"Where did that voice come from? It doesn't matter too much, since you have a fear of heights. Even though you're not a gambler, you decide that the road ahead of the bridge is your best bet. You sprint across, not looking down at the gushing rapids and make it safely to the other side, which by appearence seemed like a large forested area. You see a clearing up ahead and choose to see what's there. In the center of the clearing was a large tree stump.",
-				new Choice("Investigate the tree", 15));
+				new Choice("Investigate the tree", 15)
+				);
+		
+		// All occurences of jumping into a hole / the rapids
+		this.pages[13] = new Page (
+				0, // River with a visible shore / coastline
+				"Being more comfortable on the ground, you decide to jump down. Your breath is sucked right out of your lungs as you begin your free fall, into the depths. The noise of gushing water gets louder as you soon impact the surface, creating a loud SPLASH noise. You hold your breath and swim to the top, noticing that you were in some sort of river, with the land near you. Suddenly, you feel something tugging on your pants, like an animal had clenched its jaw around you, trying to pull you under.",
+				new Choice("Swim to shore", 16),
+				new Choice("Fight it off", 17)
+				);
+		
 	}
 
 	public Page getPage(int pageNumber) {

@@ -88,7 +88,7 @@ public class Story {
 		
 		// The page with only one button to go forward due to text being too long
 		this.pages[12] = new Page (
-				0, // Nematon clearing from Teen Wolf
+				0, // Nemeton clearing from Teen Wolf
 				"Where did that voice come from? It doesn't matter too much, since you have a fear of heights. Even though you're not a gambler, you decide that the road ahead of the bridge is your best bet. You sprint across, not looking down at the gushing rapids and make it safely to the other side, which by appearence seemed like a large forested area. You see a clearing up ahead and choose to see what's there. In the center of the clearing was a large tree stump.",
 				new Choice("Investigate the tree", 15)
 				);
@@ -105,6 +105,19 @@ public class Story {
 				0, // Dark passageway again?
 				"No one in their right minds would ever jump down that hole so you decide to move forward into the passageway. It's just like the first tunnel you were in, with everything darkened, so you don't know how far it is. You use your flashlight (luckily you didn't ignore it right?) to help guide you forward. You stop suddenly, hearing a faint and eerie voice in the background. Listening carefully, you hear a message being repeated over and over again in silent whispers: \"Kill them...kill them all!\"",
 				new Choice("Continue walking", 18)
+				);
+		
+		this.pages[15] = new Page (
+				0, // Flies everywhere? The implosion of a tree stump?
+				"You walk up to the tree stump to get a closer look. It seems as if the tree had been untouched for a long time and you're the first one to stumble upon it in ages. Its old rings seemed completely intertwined together as if they were the fates weaving the lives of heroes. Being curious, you place your hand on the stump...just to see what would happen. Immediately, the ground shook as if there was an earthquake. The crackling of bark could be heard as the stump imploded from the inside, with hordes of flies coming out of it.",
+				new Choice("Run for your life", 19)
+				);
+		
+		this.pages[16] = new Page (
+				0, // B.O.W. fish from Resident Evil: Revelations
+				"Luckily, you were the swim captain of your high school and you expertly weave your arms through the water like an expert. The thing, whatever it would be, is still tugging onto your pants, but you get closer and closer to shore. The moment your arms tough the craggy coast, you exert all of your remaining strength to climb up, dragging the creature along with you, blindly reaching for it and slamming it to the ground. It looked like a strange fish hybrid of some sort.",
+				new Choice("Throw it back into the river", 20),
+				new Choice("Kill it!", 21)
 				);
 		
 	}

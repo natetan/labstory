@@ -1,3 +1,11 @@
+/*
+ * Yulong Tan
+ * Android App: The Labyrinth
+ * 
+ * The Story class sets the context of the page, such as the image, the text, and the
+ * choice options.
+ */
+
 public class Story {
 	
 	private Page[] pages;
@@ -133,7 +141,8 @@ public class Story {
 				new Choice("Try to go around it", 23)
 				);
 	}
-
+	
+	// Returns the Page based on its number as the argument
 	public Page getPage(int pageNumber) {
 		return this.pages[pageNumber];
 	}

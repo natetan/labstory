@@ -125,6 +125,13 @@ public class Story {
 				0, // B.O.W. fish from Resident Evil: Revelations (Ghiozzo)
 				"In a mad haze for survival, you do the only thing that comes to your mind: crazily flinging your body around, trying to shake off the creature, but it was to no avail. Every single time you kicked and struggled to the surface for a precious breath of air, you're pulled back under again, like an insomniac stuck in a nightmare. The scary fish hybrid attacking you soon bites your skin, making you gasp in pain, filling your lungs with water as you slowly sink to the bottom, knowing that you failed to escape this prison."
 				);
+		
+		this.pages[18] = new Page (
+				0, // Berserker from Teen Wolf in the dark passageway under the church for darkness
+				"You run further inside the passageway and the whispers get louder. You also hear a strange animalistic growl somewhere. When the growling noise gets really loud, a large (not so human) humanoid looking thing appears in front of you. It looked like it was wearing armor made completely of bone and had a skull for a helmet on its head. It looked straight at you and growled.",
+				new Choice("Turn back and run", 22),
+				new Choice("Try to go around it", 23)
+				);
 	}
 
 	public Page getPage(int pageNumber) {

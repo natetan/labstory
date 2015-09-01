@@ -115,7 +115,7 @@ public class Story {
 		
 		this.pages[16] = new Page (
 				0, // B.O.W. fish from Resident Evil: Revelations (Ghiozzo)
-				"Luckily, you were the swim captain of your high school and you expertly weave your arms through the water like an expert. The thing, whatever it would be, is still tugging onto your pants, but you get closer and closer to shore. The moment your arms tough the craggy coast, you exert all of your remaining strength to climb up, dragging the creature along with you, blindly reaching for it and slamming it to the ground. It looked like a strange fish hybrid of some sort.",
+				"Luckily, you were the swim captain of your high school and you expertly weave your arms through the water like an expert. The thing, whatever it would be, is still tugging onto your pants, but you get closer and closer to shore. The moment your arms tough the craggy coast, you exert all of your remaining strength to climb up, dragging the creature along with you, blindly reaching for it and slamming it to the ground. It was a fish gasping for air.",
 				new Choice("Throw it back into the river", 20),
 				new Choice("Kill it!", 21)
 				);

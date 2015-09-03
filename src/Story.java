@@ -140,6 +140,9 @@ public class Story {
 				new Choice("Turn back and run", 22),
 				new Choice("Try to go around it", 23)
 				);
+		
+		// NOTE: There is a problem with the constructors. The isOneChoice constructor is set to true for all branches
+		// used and two choices stop working since one is set to invisible
 	}
 	
 	// Returns the Page based on its number as the argument

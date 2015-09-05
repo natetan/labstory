@@ -155,6 +155,12 @@ public class Story {
 				new Choice("Go uphill", 27)
 				);
 		
+		this.pages[21] = new Page (
+				0, // Humanoid B.O.W.s from Resident Evil: Revelations
+				"This fishy creature just tried to drown you. No way in hell are you going to let it live. You start stomping on the fish repeatedly, with all your strength, trying to crush it in vengeance. With every stomp, it wailed, until you stomp it one last time, when its body explodes into blood and guts around you. However, it seems that the blood had attracted more creatures and suddenly, weird looking humanoid zombie-looking creatures jump out of the river, looking at you like it's dinner time (which it probably was).",
+				new Choice("START RUNNING", 28)
+				);
+		
 		// NOTE: There is a problem with the constructors. The isOneChoice constructor is set to true for all branches
 		// used and two choices stop working since one is set to invisible
 	}

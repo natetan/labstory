@@ -148,6 +148,13 @@ public class Story {
 				new Choice("Go around it", 25)
 				);
 		
+		this.pages[20] = new Page (
+				0, // a visual splash to make users believe it was the fish thrown into the river again
+				"Although the fish did attack and try to drown you, you feel a pang of sympathy for it. It was just in its nature to pull off a stunt like that so you decide to let it live. You pick it up with both hands (it was surprisingly heavy) and toss it back into the river, hoping it gets back to safety. You check your surroundings to see that you can follow the river or go up the hill into the woods",
+				new Choice("Follow the river", 26),
+				new Choice("Go uphill", 27)
+				);
+		
 		// NOTE: There is a problem with the constructors. The isOneChoice constructor is set to true for all branches
 		// used and two choices stop working since one is set to invisible
 	}

@@ -141,6 +141,13 @@ public class Story {
 				new Choice("Try to go around it", 23)
 				);
 		
+		this.pages[19] = new Page (
+				0, // Picture of a dark cave in the woods
+				"That was the strangest thing you've seen so far and you start running past the clearing in fear for your life. Making the journey through the woods was tough, since it was dark and the terrain of the forest floor was rough. That annoying incessant buzzing sound soon dissipates as you get further away. Out of breath, you stumble upon a cave with a small opening.",
+				new Choice("Explore the cave", 24),
+				new Choice("Go around it", 25)
+				);
+		
 		// NOTE: There is a problem with the constructors. The isOneChoice constructor is set to true for all branches
 		// used and two choices stop working since one is set to invisible
 	}

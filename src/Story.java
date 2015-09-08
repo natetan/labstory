@@ -158,11 +158,15 @@ public class Story {
 		this.pages[21] = new Page (
 				0, // Humanoid B.O.W.s from Resident Evil: Revelations
 				"This fishy creature just tried to drown you. No way in hell are you going to let it live. You start stomping on the fish repeatedly, with all your strength, trying to crush it in vengeance. With every stomp, it wailed, until you stomp it one last time, when its body explodes into blood and guts around you. However, it seems that the blood had attracted more creatures and suddenly, weird looking humanoid zombie-looking creatures jump out of the river, looking at you like it's dinner time (which it probably was).",
-				new Choice("START RUNNING", 28)
+				new Choice("RUN", 28)
 				);
 		
-		// NOTE: There is a problem with the constructors. The isOneChoice constructor is set to true for all branches
-		// used and two choices stop working since one is set to invisible
+		// Takes the user back to the river pages
+		this.pages[22] = new Page (
+				0, // Dark hole
+				"That's the deadliest thing you've seen so far and you don't want to die, so you turn back and run as fast as you can, not looking back once. You can hear footsteps pounding on the floor after you, so you pick up the pace, running like Usain Bolt through the darkness. As you reach the room with the hole, you stop and try to catch your breath...that thing doesn't seem to be near, so you relax, recovering from your marathon. However, that all too familiar growling sound next to you. Suddenly, the hole seemed like a good idea.",
+				new Choice("JUMP THROUGH THE HOLE", 13)
+				);
 	}
 	
 	// Returns the Page based on its number as the argument

@@ -171,7 +171,13 @@ public class Story {
 		this.pages[23] = new Page (
 				0, // Dark hole
 				"Since that creature looks big, it must be slow! You've watched enough football to know how to juke people so you fun really far to the right to try to go around the big thing, but it moved surprisingly fast, and swiped its arm to the right, knocking the wind out of you as you fly into the wall. While you're disoriented, it growls and charges at you really fast.",
-				new Choice("Get up", 28)
+				new Choice("Get up and fight it", 28)
+				);
+		
+		this.pages[24] = new Page (
+				0, // Scary cave?
+				"Since nothing dangerous ever happens in caves, you venture inside, hoping to find something to help you get back home. As expected, it is incredibly dark so you turn on your flashlight (luckily you didn't leave it there, right?) to look around. So far, the cave seems like it goes primarily straight, with a bit of curves. Suddenly, you hear a crumbling noise coming from ahead, as if there was a large opening ahead.",
+				new Choice("Investigate the noise", 29)
 				);
 	}
 	

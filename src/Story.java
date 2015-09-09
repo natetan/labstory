@@ -104,7 +104,7 @@ public class Story {
 		// All occurences of jumping into a hole / the rapids
 		this.pages[13] = new Page (
 				0, // River with a visible shore / coastline
-				"Being more comfortable on the ground, you decide to jump down. Your breath is sucked right out of your lungs as you begin your free fall, into the depths. The noise of gushing water gets louder as you soon impact the surface, creating a loud SPLASH noise. You hold your breath and swim to the top, noticing that you were in some sort of river, with the land near you. Suddenly, you feel something tugging on your pants, like an animal had clenched its jaw around you, trying to pull you under.",
+				"You decide to jump down. Your breath is sucked right out of your lungs as you begin your free fall, into the depths. The noise of gushing water gets louder as you soon impact the surface, creating a loud SPLASH noise. You hold your breath and swim to the top, noticing that you were in some sort of river, with the land near you. Suddenly, you feel something tugging on your pants, like an animal had clenched its jaw around you, trying to pull you under.",
 				new Choice("Swim to shore", 16),
 				new Choice("Fight it off", 17)
 				);
@@ -166,6 +166,12 @@ public class Story {
 				0, // Dark hole
 				"That's the deadliest thing you've seen so far and you don't want to die, so you turn back and run as fast as you can, not looking back once. You can hear footsteps pounding on the floor after you, so you pick up the pace, running like Usain Bolt through the darkness. As you reach the room with the hole, you stop and try to catch your breath...that thing doesn't seem to be near, so you relax, recovering from your marathon. However, that all too familiar growling sound next to you. Suddenly, the hole seemed like a good idea.",
 				new Choice("JUMP THROUGH THE HOLE", 13)
+				);
+		
+		this.pages[23] = new Page (
+				0, // Dark hole
+				"Since that creature looks big, it must be slow! You've watched enough football to know how to juke people so you fun really far to the right to try to go around the big thing, but it moved surprisingly fast, and swiped its arm to the right, knocking the wind out of you as you fly into the wall. While you're disoriented, it growls and charges at you really fast.",
+				new Choice("Get up", 28)
 				);
 	}
 	

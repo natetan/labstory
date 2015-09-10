@@ -176,8 +176,14 @@ public class Story {
 		
 		this.pages[24] = new Page (
 				0, // Scary cave?
-				"Since nothing dangerous ever happens in caves, you venture inside, hoping to find something to help you get back home. As expected, it is incredibly dark so you turn on your flashlight (luckily you didn't leave it there, right?) to look around. So far, the cave seems like it goes primarily straight, with a bit of curves. Suddenly, you hear a crumbling noise coming from ahead, as if there was a large opening ahead.",
+				"Since nothing dangerous ever happens in caves, you venture inside, hoping to find something to help you get back home. As expected, it is incredibly dark so you turn on your flashlight (luckily you didn't leave it there, right?) to look around. So far, the cave seems like it goes primarily straight, with a bit of curves. Suddenly, you hear a crumbling noise coming from ahead, as if there was a large opening.",
 				new Choice("Investigate the noise", 29)
+				);
+		
+		this.pages[25] = new Page (
+				0, // Skyrim Forest
+				"Most people would venture inside the cave to see what's in there, but you're not most people. You traverse around the cave, trying to see what else is around. So far, nothing but more forested areas. Surprisingly, you see some signs of life, in the form of deer, foxes, and even some rabbits. This forest actually seems like the only thing that's normal...that is until all the animals started running away in a single direction, as if something were after them.",
+				new Choice("Run with the animals", 30)
 				);
 	}
 	

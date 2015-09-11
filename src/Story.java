@@ -192,6 +192,13 @@ public class Story {
 				new Choice("Swim to the object", 31),
 				new Choice("Go to the woods", 32)
 				);
+		
+		this.pages[27] = new Page (
+				0, // Shadow in the canopy?
+				"You head into the woods, which immediately seemed like a bad idea at first, since it was relatively dark due to the sun going down. You pull out your flashlight to help guide you. At first, walking through seemed rather normal, until you started hearing the rustling of leaves somewhere above you. Looking up, you see nothing, but as you start to move, you hear rustling once again.",
+				new Choice("Tread carefully", 33),
+				new Choice("Screw that, run through!", 34)
+				);
 	}
 	
 	// Returns the Page based on its number as the argument

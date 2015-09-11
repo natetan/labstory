@@ -185,6 +185,13 @@ public class Story {
 				"Most people would venture inside the cave to see what's in there, but you're not most people. You traverse around the cave, trying to see what else is around. So far, nothing but more forested areas. Surprisingly, you see some signs of life, in the form of deer, foxes, and even some rabbits. This forest actually seems like the only thing that's normal...that is until all the animals started running away in a single direction, as if something were after them.",
 				new Choice("Run with the animals", 30)
 				);
+		
+		this.pages[26] = new Page (
+				0, // Shining lake of some sort
+				"All rivers lead to nice places, so you follow the river by its banks, listening to the calm running of the water. The sun was starting to set and it was getting darker so you pick up the pace, and start running, eventually coming to see the river leading into a grand lake, with some shiny object floating above the lake's center.",
+				new Choice("Swim to the object", 31),
+				new Choice("Go to the woods", 32)
+				);
 	}
 	
 	// Returns the Page based on its number as the argument

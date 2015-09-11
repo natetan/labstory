@@ -199,6 +199,12 @@ public class Story {
 				new Choice("Tread carefully", 33),
 				new Choice("Screw that, run through!", 34)
 				);
+		
+		this.pages[28] = new Page (
+				0, // Sharp stick
+				"With some newly found conviction, you roll sideways, dodging the monster as it careens into the wall, getting its head stuck. You look around the room for a weapon of some sort. To your luck, you see a small stick (more like a twig) in the corner. You run and grab it, while the beast is stuck in the wall. You start trying to stab it in the back, but it doesn't really work that well, since it's completely armored in bone. You keep stabbing it until it punctures a tiny bit. However, the beast seems like it's about to free itself.",
+				new Choice("One final stab", 35)
+				);
 	}
 	
 	// Returns the Page based on its number as the argument

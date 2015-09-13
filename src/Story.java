@@ -205,6 +205,13 @@ public class Story {
 				"With some newly found conviction, you roll sideways, dodging the monster as it careens into the wall, getting its head stuck. You look around the room for a weapon of some sort. To your luck, you see a small stick (more like a twig) in the corner. You run and grab it, while the beast is stuck in the wall. You start trying to stab it in the back, but it doesn't really work that well, since it's completely armored in bone. You keep stabbing it until it punctures a tiny bit. However, the beast seems like it's about to free itself.",
 				new Choice("One final stab", 35)
 				);
+		
+		this.pages[29] = new Page (
+				0, // Large cavern with mist? some misty cave from Skyrim?
+				"Continuing forward deeper into the cave, the crumbling gets louder. You see a bit of light ahead (not produced by your flashlight) and run towards it. You find yourself in a large, open cavern mystified with dark mist, blocking your depth of view. The place feels very eerie and seemed like a place that would definitely be considered haunted. Suddenly the forest seemed like a good idea.",
+				new Choice("Explore the cavern", 36),
+				new Choice("Backtrack to the woods", 37)
+				);
 	}
 	
 	// Returns the Page based on its number as the argument

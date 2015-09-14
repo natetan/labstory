@@ -212,6 +212,13 @@ public class Story {
 				new Choice("Explore the cavern", 36),
 				new Choice("Backtrack to the woods", 37)
 				);
+		
+		this.pages[30] = new Page (
+				0, // Large cavern with mist? some misty cave from Skyrim?
+				"Animals can typically sense danger before it even happens (maybe they're psychic?) so you sprint alongside them, at a surprisingly fast pace. Predatory sounds were coming from behind you, and you turn to see a pack of dinosaur looking creatures (Velociraptors maybe?) speeding towards you. One of them leaps out right in front of you, making you fall to the ground.",
+				new Choice("Crawl away in the opposite direction", 38),
+				new Choice("Start kicking it", 39)
+				);
 	}
 	
 	// Returns the Page based on its number as the argument

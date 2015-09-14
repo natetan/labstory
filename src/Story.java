@@ -219,6 +219,12 @@ public class Story {
 				new Choice("Crawl away in the opposite direction", 38),
 				new Choice("Start kicking it", 39)
 				);
+		
+		this.pages[31] = new Page (
+				0, // Time gear from Pokemon Mystery Dungeon: Explorers of Darkness/Time/Sky
+				"That shiny object could be the answer you've been looking for, so you dive into the lake, surprised by its warmth. Despite the dark ambiance, the object gave enough light to help you tread through the waters. As you get closer, you can see what seems to be a gear, radiating light energy. You can hear a humming noise coming from it, creating ripples in the water right beneath it. This thing has to be it. It has to be the answer!",
+				new Choice("Grab the gear", 40)
+				);
 	}
 	
 	// Returns the Page based on its number as the argument

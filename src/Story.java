@@ -190,40 +190,46 @@ public class Story {
 				0, // Shining lake of some sort
 				"All rivers lead to nice places, so you follow the river by its banks, listening to the calm running of the water. The sun was starting to set and it was getting darker so you pick up the pace, and start running, eventually coming to see the river leading into a grand lake, with some shiny object floating above the lake's center.",
 				new Choice("Swim to the object", 31),
-				new Choice("Go to the woods", 32)
+				new Choice("Go to the woods", 27)
 				);
 		
 		this.pages[27] = new Page (
 				0, // Shadow in the canopy?
 				"You head into the woods, which immediately seemed like a bad idea at first, since it was relatively dark due to the sun going down. You pull out your flashlight to help guide you. At first, walking through seemed rather normal, until you started hearing the rustling of leaves somewhere above you. Looking up, you see nothing, but as you start to move, you hear rustling once again.",
-				new Choice("Tread carefully", 33),
-				new Choice("Screw that, run through!", 34)
+				new Choice("Tread carefully", 32),
+				new Choice("Screw that, run through!", 33)
 				);
 		
 		this.pages[28] = new Page (
 				0, // Sharp stick
 				"With some newly found conviction, you roll sideways, dodging the monster as it careens into the wall, getting its head stuck. You look around the room for a weapon of some sort. To your luck, you see a small stick (more like a twig) in the corner. You run and grab it, while the beast is stuck in the wall. You start trying to stab it in the back, but it doesn't really work that well, since it's completely armored in bone. You keep stabbing it until it punctures a tiny bit. However, the beast seems like it's about to free itself.",
-				new Choice("One final stab", 35)
+				new Choice("One final stab", 34)
 				);
 		
 		this.pages[29] = new Page (
 				0, // Large cavern with mist? some misty cave from Skyrim?
 				"Continuing forward deeper into the cave, the crumbling gets louder. You see a bit of light ahead (not produced by your flashlight) and run towards it. You find yourself in a large, open cavern mystified with dark mist, blocking your depth of view. The place feels very eerie and seemed like a place that would definitely be considered haunted. Suddenly the forest seemed like a good idea.",
-				new Choice("Explore the cavern", 36),
-				new Choice("Backtrack to the woods", 37)
+				new Choice("Explore the cavern", 35),
+				new Choice("Backtrack to the woods", 36)
 				);
 		
 		this.pages[30] = new Page (
 				0, // Large cavern with mist? some misty cave from Skyrim?
 				"Animals can typically sense danger before it even happens (maybe they're psychic?) so you sprint alongside them, at a surprisingly fast pace. Predatory sounds were coming from behind you, and you turn to see a pack of dinosaur looking creatures (Velociraptors maybe?) speeding towards you. One of them leaps out right in front of you, making you fall to the ground.",
-				new Choice("Crawl away in the opposite direction", 38),
-				new Choice("Start kicking it", 39)
+				new Choice("Crawl away in the opposite direction", 37),
+				new Choice("Start kicking it", 38)
 				);
 		
 		this.pages[31] = new Page (
 				0, // Time gear from Pokemon Mystery Dungeon: Explorers of Darkness/Time/Sky
 				"That shiny object could be the answer you've been looking for, so you dive into the lake, surprised by its warmth. Despite the dark ambiance, the object gave enough light to help you tread through the waters. As you get closer, you can see what seems to be a gear, radiating light energy. You can hear a humming noise coming from it, creating ripples in the water right beneath it. This thing has to be it. It has to be the answer!",
-				new Choice("Grab the gear", 40)
+				new Choice("Grab the gear", 39)
+				);
+		
+		this.pages[32] = new Page (
+				0, // Cave from page 24
+				"Maybe it won't notice you if you go very slowly, sticking to the shadows. Right now, you don't even know if it's something dangerous. It would just be the wind. As you slowly stalk forward, you listen carefully for rustling above, but you don't hear any. Going at a snail's pace, the journey was incredibly boring, as you move from tree to tree. In the darkness, you could make out a cave just up ahead. It would be a good idea to wait in there until the sun came out again.",
+				new Choice("Go into the cave", 24)
 				);
 	}
 	

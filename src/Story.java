@@ -231,6 +231,13 @@ public class Story {
 				"Maybe it won't notice you if you go very slowly, sticking to the shadows. Right now, you don't even know if it's something dangerous. It would just be the wind. As you slowly stalk forward, you listen carefully for rustling above, but you don't hear any. Going at a snail's pace, the journey was incredibly boring, as you move from tree to tree. In the darkness, you could make out a cave just up ahead. It would be a good idea to wait in there until the sun came out again.",
 				new Choice("Go into the cave", 24)
 				);
+		
+		// DEATH PAGE
+		this.pages[33] = new Page (
+				0, // Picture of a black troll from Skyrim or the regular death page
+				// Music should be the death sound
+				"In fear, you start sprinting through the woods, not caring about the loud crunching of dried leaves beneath your feet. The rustling above seems louder as the thing knows you're on the move. In your haste, your left foot gets caught on something, making you fly forward, falling to the ground. Your flashlight disappears somewhere, and darkness surrounds the area. You try to get up, but a large foot stomps on your back, holding you down. A large hand grabs you by the neck, choking the life out of you. You turn to look at it, revealing a large, black yeti looking creature. It growls, and then slashes you into bits."
+				);
 	}
 	
 	// Returns the Page based on its number as the argument

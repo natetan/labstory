@@ -238,6 +238,12 @@ public class Story {
 				// Music should be the death sound
 				"In fear, you start sprinting through the woods, not caring about the loud crunching of dried leaves beneath your feet. The rustling above seems louder as the thing knows you're on the move. In your haste, your left foot gets caught on something, making you fly forward, falling to the ground. Your flashlight disappears somewhere, and darkness surrounds the area. You try to get up, but a large foot stomps on your back, holding you down. A large hand grabs you by the neck, choking the life out of you. You turn to look at it, revealing a large, black yeti looking creature. It growls, and then slashes you into bits."
 				);
+		
+		this.pages[34] = new Page (
+				0, // Cave from page 24
+				"You raise the stick high into the air with both arms and thrust downwards with all your might. Surprisingly, the stick pierces through its body, with a cloud of white dust flying out. As it screams in agony, you start running into the place it was blocking, noticing there was a tiny bit of night light at the end. You make it to the end and see that it leads you outside, with grass and trees in the area.",
+				new Choice("Go to the woods", 27)
+				);
 	}
 	
 	// Returns the Page based on its number as the argument

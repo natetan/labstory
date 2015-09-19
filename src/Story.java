@@ -214,7 +214,7 @@ public class Story {
 				);
 		
 		this.pages[30] = new Page (
-				0, // Large cavern with mist? some misty cave from Skyrim?
+				0, // Velociraptor
 				"Animals can typically sense danger before it even happens (maybe they're psychic?) so you sprint alongside them, at a surprisingly fast pace. Predatory sounds were coming from behind you, and you turn to see a pack of dinosaur looking creatures (Velociraptors maybe?) speeding towards you. One of them leaps out right in front of you, making you fall to the ground.",
 				new Choice("Crawl away in the opposite direction", 37),
 				new Choice("Start kicking it", 38)
@@ -243,6 +243,13 @@ public class Story {
 				0, // Cave from page 24
 				"You raise the stick high into the air with both arms and thrust downwards with all your might. Surprisingly, the stick pierces through its body, with a cloud of white dust flying out. As it screams in agony, you start running into the place it was blocking, noticing there was a tiny bit of night light at the end. You make it to the end and see that it leads you outside, with grass and trees in the area.",
 				new Choice("Go to the woods", 27)
+				);
+		
+		this.pages[35] = new Page (
+				0, // Deeper part of a cave
+				"You go into the large cavern, which was quiet. Not knowing what was in there, you walk slowly, trying not to make any noise. It was futile, however, as a booming voice echoed through the cavern: \"I'm impressed, %1$s. I truly am. You have made it this far, but you're not going to get past me. Enter the passageway in front of you, and I'll kill you myself.\"",
+				new Choice("Fight the boss", 40),
+				new Choice(this.pages[29].getChoice2().getText(), 36)
 				);
 	}
 	

@@ -211,20 +211,20 @@ public class Story {
 				0, // Large cavern with mist? some misty cave from Skyrim?
 				"Continuing forward deeper into the cave, the crumbling gets louder. You see a bit of light ahead (not produced by your flashlight) and run towards it. You find yourself in a large, open cavern mystified with dark mist, blocking your depth of view. The place feels very eerie and seemed like a place that would definitely be considered haunted. Suddenly the forest seemed like a good idea.",
 				new Choice("Explore the cavern", 35),
-				new Choice("Backtrack to the woods", 36)
+				new Choice("Backtrack to the woods", 27)
 				);
 		
 		this.pages[30] = new Page (
 				0, // Velociraptor
 				"Animals can typically sense danger before it even happens (maybe they're psychic?) so you sprint alongside them, at a surprisingly fast pace. Predatory sounds were coming from behind you, and you turn to see a pack of dinosaur looking creatures (Velociraptors maybe?) speeding towards you. One of them leaps out right in front of you, making you fall to the ground.",
-				new Choice("Crawl away in the opposite direction", 37),
-				new Choice("Start kicking it", 38)
+				new Choice("Crawl away in the opposite direction", 36),
+				new Choice("Start kicking it", 37)
 				);
 		
 		this.pages[31] = new Page (
 				0, // Time gear from Pokemon Mystery Dungeon: Explorers of Darkness/Time/Sky
 				"That shiny object could be the answer you've been looking for, so you dive into the lake, surprised by its warmth. Despite the dark ambiance, the object gave enough light to help you tread through the waters. As you get closer, you can see what seems to be a gear, radiating light energy. You can hear a humming noise coming from it, creating ripples in the water right beneath it. This thing has to be it. It has to be the answer!",
-				new Choice("Grab the gear", 39)
+				new Choice("Grab the gear", 38)
 				);
 		
 		this.pages[32] = new Page (
@@ -250,8 +250,8 @@ public class Story {
 		this.pages[35] = new Page (
 				0, // Deeper part of a cave
 				"You go into the large cavern, which was quiet. Not knowing what was in there, you walk slowly, trying not to make any noise. It was futile, however, as a booming voice echoed through the cavern: \"I'm impressed, %1$s. I truly am. You have made it this far, but you're not going to get past me. Enter the passageway in front of you, and I'll kill you myself.\"",
-				new Choice("Fight the boss", 40),
-				new Choice(this.pages[29].getChoice2().getText(), 36)
+				new Choice("Fight the boss", 39),
+				new Choice(this.pages[29].getChoice2().getText(), 27)
 				);
 	}
 	

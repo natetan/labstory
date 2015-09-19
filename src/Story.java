@@ -206,6 +206,7 @@ public class Story {
 				new Choice("One final stab", 34)
 				);
 		
+		// Maybe the second option should lead to page 27?
 		this.pages[29] = new Page (
 				0, // Large cavern with mist? some misty cave from Skyrim?
 				"Continuing forward deeper into the cave, the crumbling gets louder. You see a bit of light ahead (not produced by your flashlight) and run towards it. You find yourself in a large, open cavern mystified with dark mist, blocking your depth of view. The place feels very eerie and seemed like a place that would definitely be considered haunted. Suddenly the forest seemed like a good idea.",
@@ -245,6 +246,7 @@ public class Story {
 				new Choice("Go to the woods", 27)
 				);
 		
+		// Maybe the second option should lead to page 27?
 		this.pages[35] = new Page (
 				0, // Deeper part of a cave
 				"You go into the large cavern, which was quiet. Not knowing what was in there, you walk slowly, trying not to make any noise. It was futile, however, as a booming voice echoed through the cavern: \"I'm impressed, %1$s. I truly am. You have made it this far, but you're not going to get past me. Enter the passageway in front of you, and I'll kill you myself.\"",
@@ -256,5 +258,14 @@ public class Story {
 	// Returns the Page based on its number as the argument
 	public Page getPage(int pageNumber) {
 		return this.pages[pageNumber];
+	}
+	
+	public int getWordCount(String pageText) {
+		String[] words = pageText.trim().split("\\s+");
+		return words.length;
+	}
+	
+	public int getCharCount(String pageText) {
+		return pageText.trim().length();
 	}
 }

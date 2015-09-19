@@ -7,7 +7,7 @@
  */
 
 public class Story {
-	
+
 	private Page[] pages;
 
 	public Story() {
@@ -59,27 +59,27 @@ public class Story {
 				new Choice(this.pages[5].getChoice1().getText(), this.pages[5].getChoice1().getNextPage()),
 				new Choice(this.pages[5].getChoice2().getText(), this.pages[5].getChoice2().getNextPage())
 				);
-		
+
 		this.pages[7] = new Page (
 				0, // Alchemy or enchanting room from Skyrim?
 				"Following your instincts, you take the left path, and you run through the tunnel, which eventually leads you to a singular room that has a medieval feel to it. On the right looked like some sort of alchemy table and on the left looked to be some sort of arcane enchanter. In the middle of the room, however, was a table with two large, differently colored vials: blue and yellow.",
 				new Choice("Take the blue one", 9),
 				new Choice("Take the yellow one", 10)
 				);
-		
+
 		this.pages[8] = new Page (
 				0, // Trapdoor from Skyrim?
 				"Being the punster that you are, you decide to go the RIGHT way, running through the tunnel, flashlight in hand, shining through the darkness. Eventually, you hear the rush of water coming from somewhere under you. You inspect the floor and find a hidden trapdoor, but in front of you at the end of the tunnel is a rusty ladder.",
 				new Choice("Run to the ladder", 11),
 				new Choice("Go through the trapdoor", 13)
 				);
-		
+
 		// Basically death in a different form (not using the regular death screen
 		this.pages[9] = new Page (
 				0, // Soul Carin Area with many souls of the dead
 				"Since blue is your favorite color, you decide to drink the contents of it. Immediately, you recoil at the taste and drop to your knees, cluthcing your throat and gasping, desperately trying to breathe. You feel a poisonous sensation travel to your eyes and your vision becomes black... When you wake up again, the world is warped. The land is a desolate purple, with mindless souls wandering about. You look at your hands, only to find that you look like a soul as well, trapped in this wasteland of the dead. It seems the blue vial had sucked out your soul."
 				);
-		
+
 		this.pages[10] = new Page (
 				0, // Log bridge from Skyrim
 				"Since yellow is a color your mother likes, you decide to drink the contents of it. Immediately, the entire room warps as your entire body seamlessly disappears, changing the scene. When your body reappears, you find that you're on a bridge, over the roaring sound of pure, gushing water. Suddenly, you hear a booming, raspy voice come from nowhere: \"%1$s...welcome to my domain. I don't know how you made it here, but you'll be dead soon!\"",
@@ -93,14 +93,14 @@ public class Story {
 				new Choice("Jump into the dark hole", 13),
 				new Choice("Keep going forward", 14)
 				);
-		
+
 		// The page with only one button to go forward due to text being too long
 		this.pages[12] = new Page (
 				0, // Nemeton clearing from Teen Wolf
 				"Where did that voice come from? It doesn't matter too much, since you have a fear of heights. Even though you're not a gambler, you decide that the road ahead of the bridge is your best bet. You sprint across, not looking down at the gushing rapids and make it safely to the other side, which by appearence seemed like a large forested area. You see a clearing up ahead and choose to see what's there. In the center of the clearing was a large tree stump.",
 				new Choice("Investigate the tree", 15)
 				);
-		
+
 		// All occurences of jumping into a hole / the rapids
 		this.pages[13] = new Page (
 				0, // River with a visible shore / coastline
@@ -108,104 +108,104 @@ public class Story {
 				new Choice("Swim to shore", 16),
 				new Choice("Fight it off", 17)
 				);
-		
+
 		this.pages[14] = new Page (
 				0, // Dark passageway again?
 				"No one in their right minds would ever jump down that hole so you decide to move forward into the passageway. It's just like the first tunnel you were in, with everything darkened, so you don't know how far it is. You use your flashlight (luckily you didn't ignore it right?) to help guide you forward. You stop suddenly, hearing a faint and eerie voice in the background. Listening carefully, you hear a message being repeated over and over again in silent whispers: \"Kill them...kill them all!\"",
 				new Choice("Continue walking", 18)
 				);
-		
+
 		this.pages[15] = new Page (
 				0, // Flies everywhere? The implosion of a tree stump?
 				"You walk up to the tree stump to get a closer look. It seems as if the tree had been untouched for a long time and you're the first one to stumble upon it in ages. Its old rings seemed completely intertwined together as if they were the fates weaving the lives of heroes. Being curious, you place your hand on the stump...just to see what would happen. Immediately, the ground shook as if there was an earthquake. The crackling of bark could be heard as the stump imploded from the inside, with hordes of flies coming out of it.",
 				new Choice("Run for your life", 19)
 				);
-		
+
 		this.pages[16] = new Page (
 				0, // B.O.W. fish from Resident Evil: Revelations (Ghiozzo)
 				"Luckily, you were the swim captain of your high school and you expertly weave your arms through the water like an expert. The thing, whatever it would be, is still tugging onto your pants, but you get closer and closer to shore. The moment your arms tough the craggy coast, you exert all of your remaining strength to climb up, dragging the creature along with you, blindly reaching for it and slamming it to the ground. It was a fish gasping for air.",
 				new Choice("Throw it back into the river", 20),
 				new Choice("Kill it!", 21)
 				);
-		
+
 		// Death by Ghiozzo
 		this.pages[17] = new Page (
 				0, // B.O.W. fish from Resident Evil: Revelations (Ghiozzo)
 				"In a mad haze for survival, you do the only thing that comes to your mind: crazily flinging your body around, trying to shake off the creature, but it was to no avail. Every single time you kicked and struggled to the surface for a precious breath of air, you're pulled back under again, like an insomniac stuck in a nightmare. The scary fish hybrid attacking you soon bites your skin, making you gasp in pain, filling your lungs with water as you slowly sink to the bottom, knowing that you failed to escape this prison."
 				);
-		
+
 		this.pages[18] = new Page (
 				0, // Berserker from Teen Wolf in the dark passageway under the church for darkness
 				"You run further inside the passageway and the whispers get louder. You also hear a strange animalistic growl somewhere. When the growling noise gets really loud, a large (not so human) humanoid looking thing appears in front of you. It looked like it was wearing armor made completely of bone and had a skull for a helmet on its head. It looked straight at you and growled.",
 				new Choice("Turn back and run", 22),
 				new Choice("Try to go around it", 23)
 				);
-		
+
 		this.pages[19] = new Page (
 				0, // Picture of a dark cave in the woods
 				"That was the strangest thing you've seen so far and you start running past the clearing in fear for your life. Making the journey through the woods was tough, since it was dark and the terrain of the forest floor was rough. That annoying incessant buzzing sound soon dissipates as you get further away. Out of breath, you stumble upon a cave with a small opening.",
 				new Choice("Explore the cave", 24),
 				new Choice("Go around it", 25)
 				);
-		
+
 		this.pages[20] = new Page (
 				0, // a visual splash to make users believe it was the fish thrown into the river again
 				"Although the fish did attack and try to drown you, you feel a pang of sympathy for it. It was just in its nature to pull off a stunt like that so you decide to let it live. You pick it up with both hands (it was surprisingly heavy) and toss it back into the river, hoping it gets back to safety. You check your surroundings to see that you can follow the river or go up the hill into the woods",
 				new Choice("Follow the river", 26),
 				new Choice("Go uphill", 27)
 				);
-		
+
 		this.pages[21] = new Page (
 				0, // Humanoid B.O.W.s from Resident Evil: Revelations
 				"This fishy creature just tried to drown you. No way in hell are you going to let it live. You start stomping on the fish repeatedly, with all your strength, trying to crush it in vengeance. With every stomp, it wailed, until you stomp it one last time, when its body explodes into blood and guts around you. However, it seems that the blood had attracted more creatures and suddenly, weird looking humanoid zombie-looking creatures jump out of the river, looking at you like it's dinner time (which it probably was).",
 				new Choice("RUN", 28)
 				);
-		
+
 		// Takes the user back to the river pages
 		this.pages[22] = new Page (
 				0, // Dark hole
 				"That's the deadliest thing you've seen so far and you don't want to die, so you turn back and run as fast as you can, not looking back once. You can hear footsteps pounding on the floor after you, so you pick up the pace, running like Usain Bolt through the darkness. As you reach the room with the hole, you stop and try to catch your breath...that thing doesn't seem to be near, so you relax, recovering from your marathon. However, that all too familiar growling sound next to you. Suddenly, the hole seemed like a good idea.",
 				new Choice("JUMP THROUGH THE HOLE", 13)
 				);
-		
+
 		this.pages[23] = new Page (
 				0, // Dark hole
 				"Since that creature looks big, it must be slow! You've watched enough football to know how to juke people so you fun really far to the right to try to go around the big thing, but it moved surprisingly fast, and swiped its arm to the right, knocking the wind out of you as you fly into the wall. While you're disoriented, it growls and charges at you really fast.",
 				new Choice("Get up and fight it", 28)
 				);
-		
+
 		this.pages[24] = new Page (
 				0, // Scary cave?
 				"Since nothing dangerous ever happens in caves, you venture inside, hoping to find something to help you get back home. As expected, it is incredibly dark so you turn on your flashlight (luckily you didn't leave it there, right?) to look around. So far, the cave seems like it goes primarily straight, with a bit of curves. Suddenly, you hear a crumbling noise coming from ahead, as if there was a large opening.",
 				new Choice("Investigate the noise", 29)
 				);
-		
+
 		this.pages[25] = new Page (
 				0, // Skyrim Forest
 				"Most people would venture inside the cave to see what's in there, but you're not most people. You traverse around the cave, trying to see what else is around. So far, nothing but more forested areas. Surprisingly, you see some signs of life, in the form of deer, foxes, and even some rabbits. This forest actually seems like the only thing that's normal...that is until all the animals started running away in a single direction, as if something were after them.",
 				new Choice("Run with the animals", 30)
 				);
-		
+
 		this.pages[26] = new Page (
 				0, // Shining lake of some sort
 				"All rivers lead to nice places, so you follow the river by its banks, listening to the calm running of the water. The sun was starting to set and it was getting darker so you pick up the pace, and start running, eventually coming to see the river leading into a grand lake, with some shiny object floating above the lake's center.",
 				new Choice("Swim to the object", 31),
 				new Choice("Go to the woods", 27)
 				);
-		
+
 		this.pages[27] = new Page (
 				0, // Shadow in the canopy?
 				"You head into the woods, which immediately seemed like a bad idea at first, since it was relatively dark due to the sun going down. You pull out your flashlight to help guide you. At first, walking through seemed rather normal, until you started hearing the rustling of leaves somewhere above you. Looking up, you see nothing, but as you start to move, you hear rustling once again.",
 				new Choice("Tread carefully", 32),
 				new Choice("Screw that, run through!", 33)
 				);
-		
+
 		this.pages[28] = new Page (
 				0, // Sharp stick
 				"With some newly found conviction, you roll sideways, dodging the monster as it careens into the wall, getting its head stuck. You look around the room for a weapon of some sort. To your luck, you see a small stick (more like a twig) in the corner. You run and grab it, while the beast is stuck in the wall. You start trying to stab it in the back, but it doesn't really work that well, since it's completely armored in bone. You keep stabbing it until it punctures a tiny bit. However, the beast seems like it's about to free itself.",
 				new Choice("One final stab", 34)
 				);
-		
+
 		// Maybe the second option should lead to page 27?
 		this.pages[29] = new Page (
 				0, // Large cavern with mist? some misty cave from Skyrim?
@@ -213,39 +213,39 @@ public class Story {
 				new Choice("Explore the cavern", 35),
 				new Choice("Backtrack to the woods", 27)
 				);
-		
+
 		this.pages[30] = new Page (
 				0, // Velociraptor
 				"Animals can typically sense danger before it even happens (maybe they're psychic?) so you sprint alongside them, at a surprisingly fast pace. Predatory sounds were coming from behind you, and you turn to see a pack of dinosaur looking creatures (Velociraptors maybe?) speeding towards you. One of them leaps out right in front of you, making you fall to the ground.",
 				new Choice("Crawl away in the opposite direction", 36),
 				new Choice("Start kicking it", 37)
 				);
-		
+
 		this.pages[31] = new Page (
 				0, // Time gear from Pokemon Mystery Dungeon: Explorers of Darkness/Time/Sky
 				"That shiny object could be the answer you've been looking for, so you dive into the lake, surprised by its warmth. Despite the dark ambiance, the object gave enough light to help you tread through the waters. As you get closer, you can see what seems to be a gear, radiating light energy. You can hear a humming noise coming from it, creating ripples in the water right beneath it. This thing has to be it. It has to be the answer!",
 				new Choice("Grab the gear", 38)
 				);
-		
+
 		this.pages[32] = new Page (
 				0, // Cave from page 24
 				"Maybe it won't notice you if you go very slowly, sticking to the shadows. Right now, you don't even know if it's something dangerous. It would just be the wind. As you slowly stalk forward, you listen carefully for rustling above, but you don't hear any. Going at a snail's pace, the journey was incredibly boring, as you move from tree to tree. In the darkness, you could make out a cave just up ahead. It would be a good idea to wait in there until the sun came out again.",
 				new Choice("Go into the cave", 24)
 				);
-		
+
 		// DEATH PAGE
 		this.pages[33] = new Page (
 				0, // Picture of a black troll from Skyrim or the regular death page
 				// Music should be the death sound
 				"In fear, you start sprinting through the woods, not caring about the loud crunching of dried leaves beneath your feet. The rustling above seems louder as the thing knows you're on the move. In your haste, your left foot gets caught on something, making you fly forward, falling to the ground. Your flashlight disappears somewhere, and darkness surrounds the area. You try to get up, but a large foot stomps on your back, holding you down. A large hand grabs you by the neck, choking the life out of you. You turn to look at it, revealing a large, black yeti looking creature. It growls, and then slashes you into bits."
 				);
-		
+
 		this.pages[34] = new Page (
 				0, // Cave from page 24
 				"You raise the stick high into the air with both arms and thrust downwards with all your might. Surprisingly, the stick pierces through its body, with a cloud of white dust flying out. As it screams in agony, you start running into the place it was blocking, noticing there was a tiny bit of night light at the end. You make it to the end and see that it leads you outside, with grass and trees in the area.",
 				new Choice("Go to the woods", 27)
 				);
-		
+
 		// Maybe the second option should lead to page 27?
 		this.pages[35] = new Page (
 				0, // Deeper part of a cave
@@ -253,18 +253,24 @@ public class Story {
 				new Choice("Fight the boss", 39),
 				new Choice(this.pages[29].getChoice2().getText(), 27)
 				);
+
+		// DEATH PAGE
+		this.pages[36] = new Page (
+				0,// regular death page
+				"In fear for your life, you turn away and crawl hastily, but somehow the creature must've known you were trying to get away and you felt their pack rush to your side, gnawing at you with their teeth. They begin slashing and scratching you everywhere, and even digging in with their teeth. You scream as they tear your body apart, enjoying their meal."
+				);
 	}
-	
+
 	// Returns the Page based on its number as the argument
 	public Page getPage(int pageNumber) {
 		return this.pages[pageNumber];
 	}
-	
+
 	public int getWordCount(String pageText) {
 		String[] words = pageText.trim().split("\\s+");
 		return words.length;
 	}
-	
+
 	public int getCharCount(String pageText) {
 		return pageText.trim().length();
 	}

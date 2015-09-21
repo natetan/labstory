@@ -259,6 +259,12 @@ public class Story {
 				0,// regular death page
 				"In fear for your life, you turn away and crawl hastily, but somehow the creature must've known you were trying to get away and you felt their pack rush to your side, gnawing at you with their teeth. They begin slashing and scratching you everywhere, and even digging in with their teeth. You scream as they tear your body apart, enjoying their meal."
 				);
+		
+		this.pages[37] = new Page (
+				0, // A pack of velociraptors
+				"You quickly back away on your butt, and then launch a few kicks at its head, making it flinch, angering it. It growls at you, before moving closer. However, you kick again with more force than before, making it stumble backwards, dizzy. In that small moment of time, you make your move and sweep at its legs, making it tumble to the ground, and unable to attack anymore. You see that the animals are still running, but some of the predator packs start looking at you, since one of their members had been taken down.",
+				new Choice("Start running", 40)
+				);
 	}
 
 	// Returns the Page based on its number as the argument

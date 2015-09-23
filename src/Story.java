@@ -284,6 +284,12 @@ public class Story {
 				new Choice("Go in the house", 42),
 				new Choice("Continue through the trees", 43)
 				);
+		
+		this.pages[41] = new Page (
+				0, // Large armored creature from Darkend Skyrim mod
+				"Placing your hand in the center seemed to have activated some sort of portal. The room warps until you're in a spooky fortress, with a lot of fog in the distance. It was daytime, but it didn't feel safe at all. In front of you was a large, wooden bridge, and in the distance was a large giant, clad in black armor, still as a statue. You walk across the bridge, entering the arch at the end. The figure suddenly looks up, drawing its large axe. This must be the boss.",
+				new Choice("Confront the boss", 44)
+				);
 	}
 
 	// Returns the Page based on its number as the argument

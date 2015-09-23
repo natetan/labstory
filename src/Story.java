@@ -271,6 +271,12 @@ public class Story {
 				0, // Game over page (a good ending picture?)
 				"You grab the gear, and suddenly, everything changes. You close your eyes as light explodes everywhere, the impact making you fly away. You brace yourself for the impact as you're falling, but you land on something soft...and oddly familiar. You open your eyes and see that you're in your room at home. It looks as if nothing's changed. Was it all just a cray dream? You get up and see a note on your table, with a message written in clear cursive: \"If you're reading this, then it means you have made it out and cleared my hellish maze. I will have to find another victim. Go and live your life, %1$s.\""
 				);
+		
+		this.pages[39] = new Page (
+				0, // The stone tablet from Darkend - A Dark Souls inspired Skyrim mod
+				"It's now or never. Might as well fight, since there's no telling when this hell will end. You step into the dark passageway, and suddenly the entire place is lit up with torches all around, creating a path for you. At the end of the passageway was a strange rectangular tablet of some sort, with a glowing red light right at its center. There are words enscribed: \"A limb's touch brings a new world.\"",
+				new Choice("Place your hand in the center", 41)
+				);
 	}
 
 	// Returns the Page based on its number as the argument

@@ -305,4 +305,22 @@ public class Story {
 	public int getCharCount(String pageText) {
 		return pageText.trim().length();
 	}
+	
+	public int getTotalWordCount(int totalPages) {
+		int total = 0;
+		for (int i = 0; i <= totalPages; i++) {
+			int wordCount = this.getWordCount(this.getPage(i).getText());
+			total += wordCount;
+		}
+		return total;
+	}
+	
+	public int getTotalCharCount(int totalPages) {
+		int total = 0;
+		for (int i = 0; i <= totalPages; i++) {
+			int charCount = this.getCharCount(this.getPage(i).getText());
+			total += charCount;
+		}
+		return total;
+	}
 }

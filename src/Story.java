@@ -290,6 +290,13 @@ public class Story {
 				"Placing your hand in the center seemed to have activated some sort of portal. The room warps until you're in a spooky fortress, with a lot of fog in the distance. It was daytime, but it didn't feel safe at all. In front of you was a large, wooden bridge, and in the distance was a large giant, clad in black armor, still as a statue. You walk across the bridge, entering the arch at the end. The figure suddenly looks up, drawing its large axe. This must be the boss.",
 				new Choice("Confront the boss", 44)
 				);
+		
+		this.pages[42] = new Page (
+				0, // Scary abandoned house in the middle of the woods
+				"You enter the dark, scary house, hoping to find something helpful. As expected, the house was dark and completely silent, except for the creaking of the wood. You whip out your flashlight to help you see in the dark. There seemed to be a lot of doors and rooms on the first floor. Most of them were empty except for a few drawers and dusty boxes.",
+				new Choice("Investigate the living room", 45),
+				new Choice("Go upstairs", 46)
+				);
 	}
 
 	// Returns the Page based on its number as the argument

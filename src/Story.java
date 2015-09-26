@@ -297,6 +297,13 @@ public class Story {
 				new Choice("Investigate the living room", 45),
 				new Choice("Go upstairs", 46)
 				);
+		
+		this.pages[43] = new Page (
+				0, // Spriggan from Skyrim
+				"You've seen enough scary movies to know that only danger can be inside, so going past it would be the logical choice. You choose to walk instead, since nothing is chasing you at the moment and it almost seems peaceful. That is, until you run into the Spriggan. It's almost as if it had materialized out of nowhere from a tree and scared you half to death. You try to run, but it blocks your path, as if it wants to fight.",
+				new Choice("Fight", 46),
+				new Choice("RUN THE HELL AWAY", 47)
+				);
 	}
 
 	// Returns the Page based on its number as the argument

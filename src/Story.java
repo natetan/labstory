@@ -312,6 +312,12 @@ public class Story {
 				new Choice("Feign a choice and then run", 49)
 				);
 		
+		this.pages[45] = new Page (
+				0, // Abandoned room
+				"There might still be something to see on the first floor, so you check the living room. Nothing really seemed out of the ordinary. The sofa was trashed, and the room looked completely ransacked. A bunch of (for lack of a better word) crap was littered all over the floor and the door seemed like it sas falling off.",
+				new Choice("Check upstairs", 46)
+				);
+		
 		
 	}
 

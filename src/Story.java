@@ -304,6 +304,15 @@ public class Story {
 				new Choice("Fight", 46),
 				new Choice("RUN THE HELL AWAY", 47)
 				);
+		
+		this.pages[44] = new Page (
+				0, // Close up version of the boss 
+				"\"I'm here\", you say in a shaky voice. You're met with silence as the boss lumbers towards you, shaking the ground beneath its feet. When the boss is about 20 feet in front of you, it finally speaks, breaking the silence. \"You have finally made it. Now no one leaves this place while the other is alive. Now, choose your weapon.\" An entire arsenal appears to your side.",
+				new Choice("Choose a weapon", 48),
+				new Choice("Feign a choice and then run", 49)
+				);
+		
+		
 	}
 
 	// Returns the Page based on its number as the argument

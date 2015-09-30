@@ -301,15 +301,15 @@ public class Story {
 		this.pages[43] = new Page (
 				0, // Spriggan from Skyrim
 				"You've seen enough scary movies to know that only danger can be inside, so going past it would be the logical choice. You choose to walk instead, since nothing is chasing you at the moment and it almost seems peaceful. That is, until you run into the Spriggan. It's almost as if it had materialized out of nowhere from a tree and scared you half to death. You try to run, but it blocks your path, as if it wants to fight.",
-				new Choice("Fight", 46),
-				new Choice("RUN THE HELL AWAY", 47)
+				new Choice("Fight", 47),
+				new Choice("RUN THE HELL AWAY", 48)
 				);
 		
 		this.pages[44] = new Page (
 				0, // Close up version of the boss 
 				"\"I'm here\", you say in a shaky voice. You're met with silence as the boss lumbers towards you, shaking the ground beneath its feet. When the boss is about 20 feet in front of you, it finally speaks, breaking the silence. \"You have finally made it. Now no one leaves this place while the other is alive. Now, choose your weapon.\" An entire arsenal appears to your side.",
-				new Choice("Choose a weapon", 48),
-				new Choice("Feign a choice and then run", 49)
+				new Choice("Choose a weapon", 49),
+				new Choice("Feign a choice and then run", 50)
 				);
 		
 		this.pages[45] = new Page (
@@ -321,8 +321,8 @@ public class Story {
 		this.pages[46] = new Page (
 				0, // Similar looking abandoned room to the other one
 				"There's nothing down on the first floor so you head towards the staircase. It made a creaking noise with every step you took. The second floor seemed almost identical to the first, with its share of small rooms and a messed up living room area. Every room was dusty, old, and just plain creepy.",
-				new Choice("Check the entire place", 50),
-				new Choice("Leave the house", 51)
+				new Choice("Check the entire place", 51),
+				new Choice("Leave the house", 52)
 				);
 		
 		

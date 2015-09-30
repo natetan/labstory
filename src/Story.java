@@ -318,6 +318,13 @@ public class Story {
 				new Choice("Check upstairs", 46)
 				);
 		
+		this.pages[46] = new Page (
+				0, // Similar looking abandoned room to the other one
+				"There's nothing down on the first floor so you head towards the staircase. It made a creaking noise with every step you took. The second floor seemed almost identical to the first, with its share of small rooms and a messed up living room area. Every room was dusty, old, and just plain creepy.",
+				new Choice("Check the entire place", 50),
+				new Choice("Leave the house", 51)
+				);
+		
 		
 	}
 

@@ -19,6 +19,11 @@ public class Test {
 		
 		System.out.println("Method word total: " + story.getTotalWordCount(41));
 		System.out.println("Method character total: " + story.getTotalCharCount(41));
+		
+		
+		
+		
+		
 	}
 
 }

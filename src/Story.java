@@ -325,6 +325,13 @@ public class Story {
 				new Choice("Leave the house", 52)
 				);
 		
+		this.pages[47] = new Page (
+				0, // Close up Spriggan
+				"You run up to the Spriggan and punch it directly...in the chest. It wasn't even fazed but it hissed angrily and swiped at your head. You somehow dodge it, and attempt a kick to its chest...same result. Apparently, you're not very strong. Maybe it'd be a good idea to just run away instead.",
+				new Choice("Nah, keep fighting", 53),
+				new Choice("IT'S TIME TO DIP", 48)
+				);
+		
 		
 	}
 
